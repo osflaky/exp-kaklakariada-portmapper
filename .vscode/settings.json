@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/build/": false,
+        "**/bin/": true,
+        ".gradle/": true,
+        ".idea/": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "java.codeGeneration.useBlocks": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "sonarlint.connectedMode.project": {
+        "connectionId": "kaklakariada-github",
+        "projectKey": "com.github.kaklakariada:portmapper"
+    }
+}
